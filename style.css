@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+}
+.container1 {
+  display: flex;
+  background: #ffcd9e;
+}
+.text-part {
+  margin: 20px 40px;
+  padding: 70px 100px;
+}
+#bold-text {
+  font-size: medium;
+  font-weight: bolder;
+}
+input {
+  border: 2px solid black;
+  height: 50px;
+  width: 300px;
+  border-radius: 8px;
+}
+button {
+  border: 2px solid black;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+}
+.container2 {
+  display: flex;
+  background: black;
+  color: white;
+  justify-content: space-between;
+}
+.container2 > div{
+    padding: 15px 150px;
+}
+::placeholder{
+    margin-left: 10px;
+}
